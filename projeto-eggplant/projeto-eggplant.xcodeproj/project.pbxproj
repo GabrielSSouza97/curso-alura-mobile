@@ -14,6 +14,7 @@
 		1B7C864E258D124F0013917D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7C864C258D124F0013917D /* LaunchScreen.storyboard */; };
 		1BE2AD7325910E8600E888ED /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE2AD7225910E8600E888ED /* Refeicao.swift */; };
 		1BE2AD752591134E00E888ED /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE2AD742591134E00E888ED /* Item.swift */; };
+		1BF5AA1E259142F000AF8DE6 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5AA1D259142F000AF8DE6 /* RefeicoesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1B95147F258D1750004F90E7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "../../../../../Library/Autosave Information/MyPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1BE2AD7225910E8600E888ED /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
 		1BE2AD742591134E00E888ED /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1BF5AA1D259142F000AF8DE6 /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				1B7C8645258D124C0013917D /* ViewController.swift */,
+				1BF5AA1D259142F000AF8DE6 /* RefeicoesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				1BE2AD752591134E00E888ED /* Item.swift in Sources */,
 				1B7C8646258D124C0013917D /* ViewController.swift in Sources */,
+				1BF5AA1E259142F000AF8DE6 /* RefeicoesTableViewController.swift in Sources */,
 				1BE2AD7325910E8600E888ED /* Refeicao.swift in Sources */,
 				1B7C8644258D124C0013917D /* AppDelegate.swift in Sources */,
 			);
