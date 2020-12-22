@@ -9,18 +9,23 @@
 import UIKit
 
 class Refeicao: NSObject {
+    
     // MARK - Atributos
+    
     let nome: String
     let felicidade: Int
-    let itens: Array<Item> = []
+    var itens: Array<Item> = []
     
     // MARK - Construtor
-    init(nomec: String, felicidadec: Int) {
+    
+    init(nomec: String, felicidadec: Int, itensc: [Item] = []) {
         self.nome = nomec
         self.felicidade = felicidadec
+        self.itens = itensc
     }
     
     // MARK - Métodos
+    
     func calculaCalorias() -> Double {
         var total = 0.0
         
