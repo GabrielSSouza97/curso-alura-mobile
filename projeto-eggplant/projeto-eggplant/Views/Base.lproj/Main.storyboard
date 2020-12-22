@@ -52,7 +52,7 @@
                     <navigationItem key="navigationItem" id="q8c-rE-KAx">
                         <barButtonItem key="rightBarButtonItem" title="Adicionar" id="nZy-9R-9dc">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="kbd-VV-0PO"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="adicionar" id="kbd-VV-0PO"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
