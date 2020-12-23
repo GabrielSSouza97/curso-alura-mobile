@@ -12,6 +12,8 @@
 		1B7C8649258D124C0013917D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7C8647258D124C0013917D /* Main.storyboard */; };
 		1B7C864B258D124F0013917D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7C864A258D124F0013917D /* Assets.xcassets */; };
 		1B7C864E258D124F0013917D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7C864C258D124F0013917D /* LaunchScreen.storyboard */; };
+		1B8280582593686D009FD741 /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8280562593686D009FD741 /* AdicionarItensViewController.swift */; };
+		1B8280592593686D009FD741 /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8280572593686D009FD741 /* AdicionarItensViewController.xib */; };
 		1BE2AD7325910E8600E888ED /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE2AD7225910E8600E888ED /* Refeicao.swift */; };
 		1BE2AD752591134E00E888ED /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE2AD742591134E00E888ED /* Item.swift */; };
 		1BF5AA1E259142F000AF8DE6 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5AA1D259142F000AF8DE6 /* RefeicoesTableViewController.swift */; };
@@ -25,6 +27,8 @@
 		1B7C864A258D124F0013917D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7C864D258D124F0013917D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B7C864F258D124F0013917D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8280562593686D009FD741 /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
+		1B8280572593686D009FD741 /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
 		1B95147F258D1750004F90E7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "../../../../../Library/Autosave Information/MyPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1BE2AD7225910E8600E888ED /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
 		1BE2AD742591134E00E888ED /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				1B7C8647258D124C0013917D /* Main.storyboard */,
+				1B8280572593686D009FD741 /* AdicionarItensViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 			children = (
 				1B7C8645258D124C0013917D /* ViewController.swift */,
 				1BF5AA1D259142F000AF8DE6 /* RefeicoesTableViewController.swift */,
+				1B8280562593686D009FD741 /* AdicionarItensViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 			files = (
 				1B7C864E258D124F0013917D /* LaunchScreen.storyboard in Resources */,
 				1B7C864B258D124F0013917D /* Assets.xcassets in Resources */,
+				1B8280592593686D009FD741 /* AdicionarItensViewController.xib in Resources */,
 				1B7C8649258D124C0013917D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BE2AD752591134E00E888ED /* Item.swift in Sources */,
+				1B8280582593686D009FD741 /* AdicionarItensViewController.swift in Sources */,
 				1B7C8646258D124C0013917D /* ViewController.swift in Sources */,
 				1BF5AA1E259142F000AF8DE6 /* RefeicoesTableViewController.swift in Sources */,
 				1BE2AD7325910E8600E888ED /* Refeicao.swift in Sources */,
