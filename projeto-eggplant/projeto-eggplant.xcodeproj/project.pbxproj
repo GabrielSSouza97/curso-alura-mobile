@@ -14,6 +14,7 @@
 		1B7C864E258D124F0013917D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7C864C258D124F0013917D /* LaunchScreen.storyboard */; };
 		1B8280582593686D009FD741 /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8280562593686D009FD741 /* AdicionarItensViewController.swift */; };
 		1B8280592593686D009FD741 /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8280572593686D009FD741 /* AdicionarItensViewController.xib */; };
+		1B82805B2593D345009FD741 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82805A2593D345009FD741 /* Alerta.swift */; };
 		1BE2AD7325910E8600E888ED /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE2AD7225910E8600E888ED /* Refeicao.swift */; };
 		1BE2AD752591134E00E888ED /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE2AD742591134E00E888ED /* Item.swift */; };
 		1BF5AA1E259142F000AF8DE6 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5AA1D259142F000AF8DE6 /* RefeicoesTableViewController.swift */; };
@@ -29,6 +30,7 @@
 		1B7C864F258D124F0013917D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B8280562593686D009FD741 /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
 		1B8280572593686D009FD741 /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
+		1B82805A2593D345009FD741 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
 		1B95147F258D1750004F90E7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "../../../../../Library/Autosave Information/MyPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1BE2AD7225910E8600E888ED /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
 		1BE2AD742591134E00E888ED /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				1BE2AD7225910E8600E888ED /* Refeicao.swift */,
 				1BE2AD742591134E00E888ED /* Item.swift */,
+				1B82805A2593D345009FD741 /* Alerta.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				1BF5AA1E259142F000AF8DE6 /* RefeicoesTableViewController.swift in Sources */,
 				1BE2AD7325910E8600E888ED /* Refeicao.swift in Sources */,
 				1B7C8644258D124C0013917D /* AppDelegate.swift in Sources */,
+				1B82805B2593D345009FD741 /* Alerta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
