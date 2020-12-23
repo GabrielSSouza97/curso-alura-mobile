@@ -10,9 +10,13 @@ import UIKit
 
 class RefeicoesTableViewController: UITableViewController, AdicionaRefeicaoDelegate {
     
+    // MARK: - Atributos
+    
     var refeicoes = [Refeicao(nomec: "Macarrão", felicidadec: 4),
                               Refeicao(nomec: "Pizza", felicidadec: 5),
                               Refeicao(nomec: "Comida Japonesa", felicidadec: 2)]
+    
+    // MARK: - Métodos
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return refeicoes.count
@@ -42,10 +46,10 @@ class RefeicoesTableViewController: UITableViewController, AdicionaRefeicaoDeleg
             }
             let refeicao = refeicoes[indexPath.row]
             
-            let alerta = UIAlertController(title: refeicao.nome, message: refeicao.detalhes(), preferredStyle: .alert)
-            let botaoCancelar = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
-            alerta.addAction(botaoCancelar)
-            present(alerta, animated: true, completion: nil)
+            RemoveRefeicaoViewController(controller: self).exibe(refeicao, handler: { alert in
+                self.refeicoes.remove(at: indexPath.row)
+                self.tableView.reloadData()
+            })
         }
     }
     
