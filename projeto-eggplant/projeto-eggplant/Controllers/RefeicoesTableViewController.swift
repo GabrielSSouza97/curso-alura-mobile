@@ -12,9 +12,11 @@ class RefeicoesTableViewController: UITableViewController, AdicionaRefeicaoDeleg
     
     // MARK: - Atributos
     
-    var refeicoes = [Refeicao(nomec: "Macarrão", felicidadec: 4),
-                              Refeicao(nomec: "Pizza", felicidadec: 5),
-                              Refeicao(nomec: "Comida Japonesa", felicidadec: 2)]
+    var refeicoes: [Refeicao] = []
+    
+    override func viewDidLoad() {
+        refeicoes = RefeicaoDao().recupera()
+    }
     
     // MARK: - Métodos
     
@@ -36,6 +38,7 @@ class RefeicoesTableViewController: UITableViewController, AdicionaRefeicaoDeleg
     func add(_ refeicao: Refeicao) {
         refeicoes.append(refeicao)
         tableView.reloadData()
+        RefeicaoDao().save(refeicoes)
     }
     
     @objc func mostrarDetalhes(_ gesture: UILongPressGestureRecognizer) {
