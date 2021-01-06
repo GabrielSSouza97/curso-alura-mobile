@@ -1,9 +1,9 @@
 //
 //  AlunoViewController.swift
-//  projeto-agenda-inicio
+//  Agenda
 //
-//  Created by Gabriel Santos Souza on 05/01/21.
-//  Copyright © 2020 Gabriel Santos Souza. All rights reserved.
+//  Created by Ândriu Coelho on 24/11/17.
+//  Copyright © 2017 Alura. All rights reserved.
 //
 
 import UIKit
@@ -26,12 +26,12 @@ class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
     
     // MARK: - Atributos
     
-    var contexto: NSManagedObjectContext {
+    var contexto:NSManagedObjectContext {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         return appDelegate.persistentContainer.viewContext
     }
     let imagePicker = ImagePicker()
-    var aluno: Aluno?
+    var aluno:Aluno?
     
     // MARK: - View Lifecycle
 
@@ -99,11 +99,9 @@ class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
     }
     
     @IBAction func buttonSalvar(_ sender: UIButton) {
-        
         if aluno == nil {
             aluno = Aluno(context: contexto)
         }
-        
         aluno?.nome = textFieldNome.text
         aluno?.endereco = textFieldEndereco.text
         aluno?.telefone = textFieldTelefone.text

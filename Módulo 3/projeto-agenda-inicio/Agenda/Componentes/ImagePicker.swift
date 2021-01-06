@@ -1,9 +1,9 @@
 //
 //  ImagePicker.swift
-//  projeto-agenda-inicio
+//  Agenda
 //
-//  Created by Gabriel Santos Souza on 05/01/21.
-//  Copyright © 2020 Gabriel Santos Souza. All rights reserved.
+//  Created by Alura Laranja on 04/12/17.
+//  Copyright © 2017 Alura. All rights reserved.
 //
 
 import UIKit
@@ -48,17 +48,4 @@ class ImagePicker: NSObject, UIImagePickerControllerDelegate, UINavigationContro
         
         return menu
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
 }
