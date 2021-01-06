@@ -1,9 +1,9 @@
 //
 //  HomeTableViewCell.swift
-//  projeto-agenda-inicio
+//  Agenda
 //
-//  Created by Gabriel Santos Souza on 05/01/21.
-//  Copyright © 2020 Gabriel Santos Souza. All rights reserved.
+//  Created by Ândriu Coelho on 24/11/17.
+//  Copyright © 2017 Alura. All rights reserved.
 //
 
 import UIKit
@@ -14,11 +14,11 @@ class HomeTableViewCell: UITableViewCell {
     
     @IBOutlet weak var imageAluno: UIImageView!
     @IBOutlet weak var labelNomeDoAluno: UILabel!
+    @IBOutlet weak var viewImagem: UIView!
     
-    func configuraCelula(_ aluno: Aluno) {
+    func configuraCelula(_ aluno:Aluno) {
         labelNomeDoAluno.text = aluno.nome
-        imageAluno.layer.cornerRadius = imageAluno.frame.width / 2
-        imageAluno.layer.masksToBounds = true
+        viewImagem.layer.cornerRadius = imageAluno.frame.width / 2
         if let imagemDoAluno = aluno.foto as? UIImage {
             imageAluno.image = imagemDoAluno
         }
